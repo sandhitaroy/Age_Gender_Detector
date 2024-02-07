@@ -5,7 +5,7 @@ from PIL import Image, ImageTk
 import numpy
 import numpy as np
 from keras.models import load_model
-model=load_model(r'C:\Users\Soma Roy\OpenCV\agegender.h5')
+model=load_model('agegender.h5')
 top=tk.Tk()
 top.geometry('800x600')
 top.title('Age & Gender Detector')
